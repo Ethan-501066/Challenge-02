@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Checklist simple</title>
+  <link rel="stylesheet" href="checklist.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Checklist</h1>
+
+    <form id="task-form" autocomplete="off">
+      <input id="task-input" type="text" placeholder="Escribe una tarea y presiona Añadir" aria-label="Nueva tarea">
+      <button id="add-btn" type="submit">Añadir</button>
+    </form>
+
+    <section class="list-section">
+      <h2>Tareas</h2>
+      <ul id="tasks-list"></ul>
+    </section>
+  </main>
+
+  <script src="checklist.js"></script>
+</body>
+</html>
